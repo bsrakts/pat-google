@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <center>
+        <img src="/image/google.jpg" width="351px" height="113px" alt="Google!">
+    </center>
+    <center>
+        <table border="0" width="90%">
+            <tbody>
+                <tr>
+                    <td style="background-color: #EEEEEE;" colspan="3">
+                        <center>
+                            " Search the web using Google! "
+                            <br>
+                            <input class="margin_top" type="text" name="q" value size="40">
+                            <br>
+                            <input class="margin_top" type="submit" value="Google Search">
+                            <input class="margin_top" type="submit" value="I'm feeling lucky!">
+                            <br>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="shp">
+                        <center>
+                            "Special Searches"
+                            <br>
+                            <a href="/web/19981202230410/http://www.google.com/stanford">Stanford Search</a>
+                            <br>
+                            <a href="/web/19981202230410/http://www.google.com/linux">Linux Search</a>
+                            <br>
+                        </center>
+                    </td>
+                    <td style="background-color: #61cac0">
+                        <center>
+                            <font size="-1">
+                                <a href="help.html">Help!</a> <br>
+                                <a href="about.html">About Google!</a> <br>
+                                <a href="company.html">Company Info</a> <br>
+                                <a href="stickers.html">Google! Logos</a> <br>
+                            </font>
+                        </center>
+                    </td>
+                    <td align="right" bgcolor="#62B3AA">
+                        <center>
+                            <font size="-1">
+                                Get Google! <br> updates monthly: <br>
+                                <input type="hidden" name="listname" value="google-friends">
+                                <input type="text" name="emailaddr" value="your e-mail"> <br>
+                                <input type="submit" name="SubmitAction" value="Subscribe"> &nbsp;&nbsp;
+                                <font size="-1"><a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a></font>
+                            </font>
+                        </center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <center class="margin_top">
+        <font size="-1">Copyright ©1998 Google Inc.</font>
+    </center>
+
+    <!--css-->
+    <style>
+        center {
+            display: block;
+            text-align: -webkit-center;
+        }
+        
+        table {
+            border-collapse: separate;
+            text-indent: initial;
+            white-space: normal;
+            line-height: normal;
+            font-weight: normal;
+            font-size: medium;
+            font-style: normal;
+            color: -internal-quirk-inherit;
+            text-align: start;
+            border-spacing: 2px;
+            font-variant: normal;
+        }
+        
+        input:not([type="image" i]) {
+            box-sizing: border-box;
+        }
+        
+        input[type="text" i] {
+            padding: 1px 2px;
+        }
+        
+        input {
+            writing-mode: horizontal-tb !important;
+            font-family: 'Times New Roman', Times, serif;
+            text-rendering: auto;
+            color: -internal-light-dark(black, white);
+            letter-spacing: normal;
+            word-spacing: normal;
+            line-height: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: start;
+            appearance: auto;
+            -webkit-rtl-ordering: logical;
+            cursor: text;
+            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+            margin: 0em;
+            padding: 1px 2px;
+            border-width: 1px;
+            border-style: inset;
+            border-color: -internal-light-dark(rgb(226, 225, 225), rgb(133, 133, 133));
+            border-image: initial;
+        }
+        
+        .margin_top {
+            margin-top: 6px !important;
+        }
+        
+        .shp {
+            background: #7EE5DA;
+            width: 37%;
+            height: auto;
+        }
+        
+        td {
+            display: table-cell;
+            vertical-align: inherit;
+        }
+    </style>
+    <!--js dosyaları-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        var string = "Hello I'm Adolfha Carol from Turkey.I'm a nuclear medicine technician but I am currently working as a web design admin. I started learning software for a hobby at the weekend while studying at university.When I realized that I was passionate about this profession, I dedicated myself. Then I started learning web&graphic design and studying web design&coding at Sakarya University. I'm interested in frontend technologies.";
+        var str = string.split("");
+        var el = document.getElementById('str');
+        (function animate() {
+            str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
+            var running = setTimeout(animate, 90);
+        })();
+    </script>
+</body>
+
+</html>
